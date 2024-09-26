@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx-cfl
 spec:
-  replicas: 2  # Deux répliques de l'application pour la haute disponibilité
+  replicas: 4  # Deux répliques de l'application pour la haute disponibilité
   selector:
     matchLabels:
       app: nginx-cfl
